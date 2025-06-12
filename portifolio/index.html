@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suhas Sriramaneni | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/735bcdbe8b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+ <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/logo.png" class="logo" alt="lOGO">
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#Services">Projects</a></li>
+            <li><a href="#portifolio">Certifications</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>AI/ML Engineer , Web Developer</p>
+          <h1>Hi, I'm <span>Suhas</span><br>Sriramaneni</h1>
+        </div>
+      </div>
+ </div>
+ <div id="about">
+   <div class="container">
+    <div class="row">
+      <div class="about-col-1">
+        <img src="images/5652030.webp">
+      </div>
+      <div class="about-col-2">
+        <h1 class="subtitle">About Me</h1>
+        <p>Motivated and detail-oriented Computer Science student with a strong foundation in front-end web 
+development and IoT-based system design. Proficient in HTML, CSS, JavaScript, Java, Python, and 
+React.js. Experienced in developing responsive web applications and building real-time safety 
+systems. Eager to contribute technical expertise and creative problem-solving to innovative 
+engineering projects.</p>
+        <div class="tab-titles">
+          <p class="tab-links active-link" onclick="opentab('Skills')">Extra-Curricular Skills & Achievements</p>
+          <p class="tab-links" onclick="opentab('Experience')">Technical Skills</p>
+          <p class="tab-links" onclick="opentab('Education')">Education</p>
+        </div>
+        <div class="tab-contents active-tab" id="Skills">
+          <ul>
+            <li><span>Logic Building </span><br>Solved 100+ DSA problems on LeetCode and GeeksforGeeks.</li>
+            <li><span>hackathons</span><br>Participated in multiple hackathons, contributing innovative solutions and teamwork.</li>
+            <li><span>Soft Skills</span><br>Team Management, Presentations, Critical Thinking, Leadership, Communication, Tech- 
+nical Writing, Problem Solving </li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="Experience">
+          <ul>
+            <li><span> Languages</span><br>Java, Python, C/C++ (Beginner), MySQL, C#, JavaScript </li>
+            <li><span>Tools</span><br>Git, GitHub, Jupyter Notebook, VS Code, Google Colab, Postman</li>
+            <li><span>Libraries/Frameworks</span><br>Matplotlib, Pandas, NumPy (Python); dplyr (R)</li>
+            <li><span>Web Technologies</span><br>HTML, CSS, React.js,Node.js</li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="Education">
+          <ul>
+            <li><span>B.Tech in Computer Science and Engineering</span><br>pursuing<br>CGPA : 9.16</li>
+            <li><span>HSC (BIEAP): Physics, Chemistry, Mathematics </span><br>2021 - 2023<br>Percentage: 96.7% </li>
+            <li><span>SSC </span><br>2020 - 2021,<br>Percentage: 99.6%  </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+   </div>
+ </div>
+
+ <!-------services------->
+ <div id="Services">
+    <div class="container">
+      <h1 class="subtitle">Projects</h1>
+      <div class="services-list">
+        <div>
+         <i class="fa-solid fa-shield-halved"></i>
+          <h2>Women and Child Security System</h2>
+          <p> Designed and built a real-time security alert application using Raspberry Pi, GSM, GPS, 
+accelerometer, and sensors.</p>
+          <a href="#">Learn More</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-crop-simple"></i>
+          <h2>House Price Prediction</h2>
+          <p>Prediction of House Price based on their square footage and no of bedrooms/bathrooms.</p>
+          <a href="#">Learn More</a>
+        </div>
+        <div>
+          <i class="fa-brands fa-app-store"></i>
+          <h2>App Design</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ab laborum placeat debitis iusto itaque.</p>
+          <a href="#">Learn More</a>
+        </div>
+      </div>
+    </div>
+ </div>
+ <!----portifolio-->
+ <div id="portifolio">
+  <div class="container">
+    <h1 class="subtitle">Certification</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="images/genAi.jpeg" alt="">
+        <div class="layer">
+          <h3>Career Essentials in Generative AI by Microsoft and LinkedIn</h3>
+          <p>This course was an insightful journey into the world of AI-powered creativity, covering:
+🔹 Fundamentals of Generative AI
+🔹 Real-world applications of GenAI in business, design, and development
+🔹 Responsible AI practices and ethics</p>
+          <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="images/csharp.jpeg" alt="">
+        <div class="layer">
+          <h3>C#</h3>
+          <p>I’ve obtained a new certification: Foundational C# with Microsoft from freeCodeCamp!.A huge thanks to Microsoft and freeCodeCamp for providing such valuable resources. I'm eager to apply this knowledge in real-world projects and continue growing as a developer!</p>
+          <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="images/fullstack.png" alt="">
+        <div class="layer">
+          <h3>Full Stack</h3>
+          <p>I’ve successfully completed the Full Stack Developer Bootcamp – Master Frontend to Backend from GeeksforGeeks! 🎓💻
+Throughout this journey, I gained hands-on experience with a wide range of technologies, including:
+🟢 Frontend: HTML, CSS, JavaScript, React
+🟡 Backend: Node.js, Django
+🔵 Databases: MongoDB, SQL</p>
+          <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+    </div>
+    <a href="https://drive.google.com/drive/folders/1BLG2l6vZuBBVzz8k9xdl63EUalHSdqFe?usp=drive_link" class="btn">See More</a>
+  </div>
+ </div>
+
+ <!---contact-->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="subtitle">Contact Me</h1>
+        <p><i class="fa-solid fa-envelope"></i> suhaschoudary.s@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i> 9000414664</p>
+        <div class="social-icons">
+          <a href=""><i class="fa-brands fa-linkedin"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>  <!---add linkss here-->
+          <a href=""><i class="fa-brands fa-github"></i></a>
+        </div>
+        <a href="resumefiles/1.pdf" download class="btn btn2">Download Resume</a>
+      </div>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="Email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>copyright © Suhas 2025</p>
+  </div>
+</div>
+ <script>
+  var tablinks = document.getElementsByClassName("tab-links");
+  var tabcontents = document.getElementsByClassName("tab-contents");
+
+  function opentab(tabname){
+    for(tablink of tablinks){
+      tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+      tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+  }
+ </script>
+ <script>
+  var sidemenu = document.getElementById("sidemenu");
+  function openmenu(){
+    sidemenu.style.right = "0";
+  }
+  function closemenu(){
+    sidemenu.style.right = "-200px";
+  }
+ </script>
+ <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyIxXFfud9XHV3E6-T6lIZmUJ_aWcydHX-heoxi8ucglvTEc5KXUXOtQLOK1gzUY1k/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent sucessfully"
+        setTimeout(function(){
+          msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
